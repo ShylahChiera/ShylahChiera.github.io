@@ -7,7 +7,7 @@ nav ul, footer ul {
     padding: 10px;
     list-style: none;
     font-weight: bold;
-    background-color: #e7d9f4;
+    background-color: #e5eafd;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -23,19 +23,24 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    color: black;
+    color: #292d2d;
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: lighter;
     position: absolute; 
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    text-align: center; 
     letter-spacing: 4px;
     top: 100px; 
     left: 10%; 
-    width: 100%;
+    width: 40%;
+    background-color: #e5eafd;
+    opacity: 0.8;
+    border-radius: 10px;
 }
 p {
     font-size: 1em;
+    text-align: left; 
     line-height: 1.4em;
     color: #333;     
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -43,7 +48,10 @@ p {
     position: absolute; 
     top: 200px; 
     left: 10%; 
-    width: 100%; 
+    width: 70%; 
+    background-color: #e5eafd;
+    opacity: 0.8;
+    border-radius: 5px;
 }
 footer {
     border-top: 1px solid #d5d5d5;
