@@ -45,13 +45,8 @@ h1 {
     opacity: 0.8;
     border-radius: 10px;
 }
-h2 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-weight: lighter;
-    font-size: 1em;
 
-}
-p {
+h2 {
     font-size: 1em;
     line-height: 1.4em;
     letter-spacing: 2px;
@@ -61,10 +56,23 @@ p {
     position: absolute; 
     top: 200px; 
     left: 10%; 
-    width: 57%; 
+    width: 40%; 
     background-color: #e5eafd;
     opacity: 0.8;
     border-radius: 5px;
+}
+h3 {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: lighter;
+    font-size: 1em;
+
+}
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #333;     
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: lighter;
 }
 footer {
     border-top: 1px solid #d5d5d5;
