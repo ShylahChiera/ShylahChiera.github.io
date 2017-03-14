@@ -110,3 +110,27 @@ img {
     object-fit: cover;
 
 }
+.fineart{
+    width: 100%;
+}
+.fineart-item {
+    width: 40%;
+    height: auto;
+    display: block;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.fineart-details {
+    text-align: center;
+    
+}
+p.inquiries {
+    text-align: center;
+    padding-bottom: 40px;
+}
+a.inquiries{
+    color: #64dbcb;
+}
