@@ -2,14 +2,25 @@ body {
     margin:0;
     border: 0;
 }
-nav ul {
+#navbar {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 15px;
     margin: 0px;
+    padding-bottom: 0;
     list-style: none;
     font-weight: bold;
-    background-color: #262834;
-    opacity: 70%;
+    /*background-color: white;
+    border-color: #e8edf4;
+*/    opacity: 70%;
+}
+.navbar.navbar-default {
+    margin-bottom: 0;
+    background-color: white;
+    border-color: #9ebdd0;
+}
+.container {
+    margin: 0;
+    width: 100%;
+    padding: 0;
 }
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -17,7 +28,7 @@ footer ul {
     margin: 0px;
     list-style: none;
     font-weight: bold;
-    background-color: #262834;
+    background-color: white;
     opacity: 70%;
 }
 ul.social{
@@ -36,7 +47,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color:white;
+    color:grey;
     font-size: 14px;
     font-weight: lighter;
     letter-spacing: 2px;
