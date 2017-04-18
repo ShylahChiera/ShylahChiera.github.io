@@ -24,12 +24,13 @@ body {
 }
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 15px;
+    padding: 5px 10px 5px 10px;
     margin: 0px;
     list-style: none;
     font-weight: bold;
     background-color: white;
     opacity: 70%;
+    text-align: center;
 }
 ul.social{
     list-style: none;
@@ -40,7 +41,9 @@ li.social {
     float: left;
     padding:20px;
 }
-
+.fa {
+    font-size: 22px
+}
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
