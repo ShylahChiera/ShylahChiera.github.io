@@ -23,23 +23,11 @@ body {
     padding: 0;
 }
 footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 5px 10px 5px 10px;
     margin: 0px;
     list-style: none;
-    font-weight: bold;
     background-color: white;
-    opacity: 70%;
     text-align: center;
-}
-ul.social{
-    list-style: none;
-    text-align: center;
-    width: 100%
-}
-li.social {
-    float: left;
-    padding:20px;
 }
 .fa {
     font-size: 22px
