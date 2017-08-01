@@ -19,7 +19,6 @@ body {
 .navbar.navbar-default {
     margin-bottom: 0;
     background-color: white;
-    border-color: #9ebdd0;
 }
 .container {
     margin: 0;
@@ -55,11 +54,11 @@ h1 {
     font-size: 5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: lighter;
-    position: absolute; 
+    position: absolute;
     text-transform: uppercase;
-    text-align: center; 
+    text-align: center;
     letter-spacing: 32px;
-    top: 200px; 
+    top: 200px;
     width: 100%;
 }
 
@@ -71,8 +70,8 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: lighter;
     position: absolute;
-    text-align:center; 
-    top: 300px; 
+    text-align:center;
+    top: 300px;
     width: 100%;
 }
 h3 {
@@ -86,7 +85,7 @@ h3 {
 p {
     font-size: 1em;
     line-height: 1.4em;
-    color: #333;     
+    color: #333;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: lighter;
     margin-top: 20px;
@@ -101,8 +100,8 @@ footer {
     left: 0;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
@@ -131,7 +130,7 @@ img {
 }
 .fineart-details {
     text-align: center;
-    
+
 }
 p.inquiries {
     text-align: center;
@@ -140,7 +139,39 @@ p.inquiries {
 a.inquiries{
     color: #64dbcb;
 }
+p.software-title {
+  text-align: left;
+  font-size: x-large;
+  font-weight: bold;
+}
+p.software-description {
+  width: 80%
+}
+.software-break{
+  height: 10%;
+}
+.software-img {
+  height: auto;
+  float: right;
+  padding-left: 5%;
+  margin-bottom: 2%
+}
+.software-img-app{
+  height: 50%;
+  width: auto;
+}
+.img-container{
+  margin-top: 5;
+  width: 30%;
+  padding-right: 1cm;
 
+}
+.img-container2{
+  background-color: violet;
+  margin-top: 5;
+  width: 30%;
+
+}
 @media screen and (max-width: 470px) {
 
     h1 {
