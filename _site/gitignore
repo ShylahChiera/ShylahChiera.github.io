@@ -1,0 +1,12 @@
+_site/
+Gemfile.lock
+.DS_Store
+
+### Git ###
+*.orig
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

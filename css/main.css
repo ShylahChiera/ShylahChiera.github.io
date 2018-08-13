@@ -19,11 +19,14 @@ body {
 .navbar.navbar-default {
     margin-bottom: 0;
     background-color: white;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
 }
 .container {
     margin: 0;
     width: 100%;
-    padding: 0;
+    padding-top: 5%;
 }
 footer ul {
     padding: 5px 10px 5px 10px;
@@ -115,23 +118,7 @@ img {
     object-fit: cover;
 
 }
-.fineart{
-    width: 100%;
-}
-.fineart-item {
-    width: 40%;
-    height: auto;
-    display: block;
-    text-align: center;
-    padding: 20px 0px 5px 0px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-}
-.fineart-details {
-    text-align: center;
 
-}
 p.inquiries {
     text-align: center;
     padding-bottom: 40px;
@@ -139,40 +126,8 @@ p.inquiries {
 a.inquiries{
     color: #64dbcb;
 }
-p.software-title {
-  text-align: left;
-  font-size: x-large;
-  font-weight: bold;
-}
-p.software-description {
-  width: 80%
-}
-.software-break{
-  height: 10%;
-}
-.software-img {
-  height: auto;
-  float: right;
-  padding-left: 5%;
-  margin-bottom: 2%
-}
-.software-img-app{
-  height: 50%;
-  width: auto;
-}
-.img-container{
-  margin-top: 5;
-  width: 30%;
-  padding-right: 1cm;
 
-}
-.img-container2{
-  background-color: violet;
-  margin-top: 5;
-  width: 30%;
-
-}
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 500px) {
 
     h1 {
         font-size: 3.6em;
@@ -183,4 +138,15 @@ p.software-description {
         letter-spacing: 3px;
         font-weight: normal;
     }
+    .img-container {
+      display: none;
+    }
+    .table-container {
+      height:100vh;
+    }
+}
+@media screen and (min-width: 500px) {
+  .screenshot-button {
+    display: none;
+  }
 }

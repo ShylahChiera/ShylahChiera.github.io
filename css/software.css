@@ -1,0 +1,48 @@
+p.software-title {
+  text-align: left;
+  font-size: x-large;
+  font-weight: bold;
+}
+p.software-description {
+  width: 80%
+}
+.software-break{
+  height: 10%;
+}
+.software-img {
+  height: auto;
+  float: right;
+  padding-left: 5%;
+  margin-bottom: 2%
+}
+.software-img-app{
+  height: 100%;
+  width: auto;
+}
+.img-container{
+  margin-top: 5;
+  width: 30%;
+  padding-right: 1cm;
+
+}
+.img-container2{
+  background-color: violet;
+  margin-top: 5;
+  width: 30%;
+
+}
+.modal {
+  padding-top: 10vh;
+}
+.modal-body {
+  height: 75vh;
+}
+.carousel-indicators {
+  background-color: black;
+}
+.carousel-img {
+  height: 60vh;
+  width: auto;
+  margin: auto;
+  display: block;
+}
