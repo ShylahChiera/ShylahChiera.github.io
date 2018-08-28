@@ -46,3 +46,8 @@ p.software-description {
   margin: auto;
   display: block;
 }
+.projImg {
+  width: 20%;
+  height: auto;
+  margin: 3%;
+}
