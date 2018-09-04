@@ -2,8 +2,50 @@
 layout: default
 title: projects
 ---
-<div style="text-align:center; margin-top:10%;">
-<h4 style="color: #565656">UNDER RENOVATION</h4>
-<img src="../sources/ui.png" style="width:30%; height:auto""></img>
-<h5 style="color: #565656">Please excuse our appearance as we add bootstrap for future enjoyment</h5>
-</div>
+<style>
+.nameElement {
+  font-size: 36px;
+  font-weight: 400;
+}
+.projImg {
+  width:10%;
+  height: auto;
+  border-width: 10px;
+  border-color: black;
+}
+</style>
+<script language="javascript" type="text/javascript">
+function test(){
+  var myObj = JSON.parse(obj)
+  console.log(myObj)
+  var projects = myObj.projects;
+  var x;
+  console.log(projects)
+  for (x in projects){
+    var nameElement = document.createElement("p");
+    var descElement = document.createElement("p");
+    var projName = document.createTextNode(projects[x].name);
+    var projDesc = document.createTextNode(projects[x].description)
+    nameElement.appendChild(projName);
+    document.body.appendChild(nameElement);
+    nameElement.classList.add("nameElement");
+    descElement.appendChild(projDesc);
+    document.body.appendChild(descElement);
+    descElement.classList.add("descElement");
+    var projImages = projects[x].images;
+    var y;
+
+    for (y in projImages){
+      console.log(projImages[y])
+      var img = new Image;
+      img.src = projImages[y];
+      img.classList.add("projImg")
+      document.body.appendChild(img);
+
+    }
+
+  }
+
+}
+window.onload = test;
+</script>
